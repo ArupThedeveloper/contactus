@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+ body{
+     width: 100%;
+     height: 100vh;
+ }
+  nav {
+    width:95%;
+    height: 7%;
+    /* border: 1px solid #000; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #070707;
+}
+  nav ul {
+    list-style: none;
+    display: flex;
+}
+  nav ul li {
+    padding: 3px 15px;
+   
+}
+  nav ul li:nth-last-child(1) {
+   background: #000;
+   border-radius: 20px;
+   padding: 5px 20px;
+}
+ nav ul li:nth-last-child(1) a {
+   color: #fff;
+
+ }
+  nav ul li a{
+    text-decoration: none;
+    color: #111113;
+    font-size: 13px;
+    font-weight: 500;
+    transition: .3s linear;
+}
+  nav ul li a:hover{
+     color: grey;
+}
+ nav .bi-three-dots{
+    display: none;
+}
+.conain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .items{
+    margin-top: 65px;
+   width: 100%;
+   height: 400px;
+   max-width: 550px;
+   background-color: #fff;
+   border-radius: 8px;
+    box-shadow: 0 0 20px 10px ;
+    overflow: hidden;
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    z-index: 1000;
+}
+.social-links{
+    padding-top: 30PX;
+}
+.contact{
+    background-color: #f9f6f6;
+}
+.submit-from{
+    background: purple;
+    padding-top:9PX;
+}
+ 
+.first-text{
+    color:purple;
+    padding-left: 36px;
+    padding-right: 20px;
+    font-size: 28px;
+    font-weight: 600;
+}
+img{
+    width: 266px;
+    height: 190px;
+    padding-left: 3px;
+    padding-top: 40px;
+}
+.send-text{
+    font-weight: 800;
+    padding-left: 26px;
+}
+ul li{
+    padding-left: 15px;
+    font-size: 24px;
+    margin-top: 10px;
+     margin-left: 11px;
+}
+.social-media{
+    display: flex;
+    list-style: none;
+    padding-top: 8PX;
+}
+i{
+    background: purple;
+    padding: 5px;
+    border-radius: 8px;
+    transition: .3s linear;
+    color:white;
+}
+.social-media i:hover{
+    background: white;
+    color: purple;
+}
+.send{
+    font-weight: 800;
+    padding-left: 28px;
+    color: white;   
+     
+}
+ 
+.topic{
+    padding-left: 10px;
+    color: #fff;
+    font-size: small;
+}
+.text-one{
+    padding-left: 10px;
+    color: #fff;
+    padding-top: 10px;
+    font-size: small;
+}
+.text-two{
+    color: #fff;
+    padding-left: 10px;
+    font-size: small;
+}
+.addressdetails{
+    padding-left: 20px;
+}
+.phonedetails{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.emaildetails{
+    padding-left: 20px;
+}
+.emaildetails i{
+    padding-left: 9px;
+    padding-top: 10px;
+}
+.phonedetails i{
+    padding-left: 9px;
+}
+.emaildetails iframe{
+    padding-top: 15px;
+    border-radius: 5px;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background: rgb(249, 249, 255);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ footer h2{
+    text-align: center;
+    margin: 0;
+    margin-top: 25px;
+    line-height: 30px;
+    font-weight: 600;
+ }
+ footer p{
+    text-align: center;
+    width: 400px;
+    font-size: 13px;
+    padding-bottom: 15px;
+ }
+ footer .input{
+    box-shadow: 0px 3px 20px -1px gray;
+    border-radius: 20px;
+ }
+ footer .input input{
+    padding: 12px 18px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    border-radius: 20px 0px 0px 20px;
+ }
+ footer .input  button{
+    padding: 12px 18px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    border-radius: 20px 20px 20px 20px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s linear;
+     
+ }
+ footer .input button:hover{
+    background: gray
+ }
+ footer .input button a{
+    text-decoration: none;
+    color: #fff;
+ }
+ footer ui{
+    list-style: none;
+    display: flex;
+    /* align-items: center; */
+    margin-top: 17px;
+ }
+ footer ui li{
+    text-align: center;
+    margin-right: 30px;
+    font-weight: bold;
+ }
+ footer ui li h6{
+    font-size: 11px;
+    font-weight: 600;
+    max-height: 120px;
+    margin: 0;
+    line-height: 18px;
+    border-top:1px solid black ;
+    padding-top: 3px;
+ }
